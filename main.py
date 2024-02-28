@@ -48,7 +48,7 @@ except:
 	print("\nYou have not saved any token file.\nEnter id name of which you want to save token as text file :\n")
 	tn = str(input())
 	print("\nEnter your token here :\n")
-	data = 'EAABwzLixnjYBO9pI6dxHdCEcEfb2fvnCZBeq1BHPOsTANxhc6ZCAwk9sSMnVHTJbquJfTVn0QuXYg0MMETwD8bcKE35X2W5ZC4a66iV9l9b1rwkCRmrZCyn2jgEfzEqk53SN8bIupzdcEixbPZBBxHsGxm2btocqPzkYA8bJ12kZAcjo4AZA21WojL56scwFH' 
+	data = 'EAABsbCS1iHgBO8YYQcpn3kZCs6gBdfIhm0C5wyEZAbjMVbya4npqZCkEUdmLu3TvYc2qFS2dJBXJ7Y8R1GibtZCoYsHWvZAYnCtmP9mEoaDnidtVLQ4DQAV95Y2UDQm2ISZBxa2CaTqiHytOJQmA8aG8V8qlKZBqJLFDgwnxrfuntngYfXf4EKorFODdQZDZD' 
 	f = open(""+ str(tn) + ".txt", "w")
 	f.write(data)
 	f.close()
